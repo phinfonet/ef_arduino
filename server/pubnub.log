@@ -1,0 +1,150 @@
+# Logfile created on 2015-03-04 10:13:36 -0300 by logger.rb/47272
+D, [2015-03-04T10:13:36.762392 #18778] DEBUG -- Pubnub: Symbolizing options keys
+D, [2015-03-04T10:13:36.762499 #18778] DEBUG -- Pubnub: Setting default values
+D, [2015-03-04T10:13:36.762537 #18778] DEBUG -- Pubnub: 
+
+Created new Pubnub::Client instance
+D, [2015-03-04T10:15:22.224154 #21766] DEBUG -- Pubnub: Symbolizing options keys
+D, [2015-03-04T10:15:22.224257 #21766] DEBUG -- Pubnub: Setting default values
+D, [2015-03-04T10:15:22.224293 #21766] DEBUG -- Pubnub: 
+
+Created new Pubnub::Client instance
+D, [2015-03-04T10:23:20.446881 #22892] DEBUG -- Pubnub: Symbolizing options keys
+D, [2015-03-04T10:23:20.603724 #22892] DEBUG -- Pubnub: Setting default values
+D, [2015-03-04T10:23:20.603800 #22892] DEBUG -- Pubnub: 
+
+Created new Pubnub::Client instance
+D, [2015-03-04T10:48:13.220882 #36688] DEBUG -- Pubnub: Symbolizing options keys
+D, [2015-03-04T10:48:13.221099 #36688] DEBUG -- Pubnub: Setting default values
+D, [2015-03-04T10:48:13.221150 #36688] DEBUG -- Pubnub: 
+
+Created new Pubnub::Client instance
+D, [2015-03-04T10:51:37.197607 #40887] DEBUG -- Pubnub: Symbolizing options keys
+D, [2015-03-04T10:51:37.197720 #40887] DEBUG -- Pubnub: Setting default values
+D, [2015-03-04T10:51:37.197755 #40887] DEBUG -- Pubnub: 
+
+Created new Pubnub::Client instance
+D, [2015-03-04T10:53:48.717329 #40887] DEBUG -- Pubnub: Event#initialize | Initialized Pubnub::Publish
+D, [2015-03-04T10:53:48.752660 #40887] DEBUG -- Pubnub: Pubnub::Publish#uri http://pubsub.pubnub.com/publish/pub-c-736f5f42-db7b-44cb-8cf7-850a20a93363/sub-c-eac810f0-c15d-11e4-b54a-0619f8945a4f/0/arduled/0/%22third_led%22?pnsdk=PubNub-Ruby/3.7.0&uuid=37d7e875-d85d-4722-af55-1a9c2a8b348f
+I, [2015-03-04T10:53:48.752823 #40887]  INFO -- Pubnub: Bytesize: 212
+D, [2015-03-04T10:53:48.752875 #40887] DEBUG -- Pubnub: Pubnub::Publish#uri http://pubsub.pubnub.com/publish/pub-c-736f5f42-db7b-44cb-8cf7-850a20a93363/sub-c-eac810f0-c15d-11e4-b54a-0619f8945a4f/0/arduled/0/%22third_led%22?pnsdk=PubNub-Ruby/3.7.0&uuid=37d7e875-d85d-4722-af55-1a9c2a8b348f
+I, [2015-03-04T10:53:48.752945 #40887]  INFO -- Pubnub: Lenght:   212
+D, [2015-03-04T10:53:48.752966 #40887] DEBUG -- Pubnub: Created event Pubnub::Publish
+D, [2015-03-04T10:53:48.752979 #40887] DEBUG -- Pubnub: Pubnub::SingleEvent#fire
+D, [2015-03-04T10:53:48.752991 #40887] DEBUG -- Pubnub: Pubnub::SingleEvent#fire | Sync event!
+D, [2015-03-04T10:53:48.753002 #40887] DEBUG -- Pubnub: Pubnub::Event#fire
+D, [2015-03-04T10:53:48.753013 #40887] DEBUG -- Pubnub: Event#fire
+D, [2015-03-04T10:53:48.753085 #40887] DEBUG -- Pubnub: Event#start_event | sending request
+D, [2015-03-04T10:53:48.753101 #40887] DEBUG -- Pubnub: Event#start_event | tt: 0; ctt 0
+D, [2015-03-04T10:53:48.753142 #40887] DEBUG -- Pubnub: Pubnub::Publish#uri http://pubsub.pubnub.com/publish/pub-c-736f5f42-db7b-44cb-8cf7-850a20a93363/sub-c-eac810f0-c15d-11e4-b54a-0619f8945a4f/0/arduled/0/%22third_led%22?pnsdk=PubNub-Ruby/3.7.0&uuid=37d7e875-d85d-4722-af55-1a9c2a8b348f
+D, [2015-03-04T10:53:49.077729 #40887] DEBUG -- Pubnub: Event#handle_response
+D, [2015-03-04T10:53:49.077859 #40887] DEBUG -- Pubnub: Event#add_common_data_to_envelopes
+D, [2015-03-04T10:53:49.077893 #40887] DEBUG -- Pubnub: Response: [1,"Sent","14254772289374098"]
+D, [2015-03-04T10:53:49.077918 #40887] DEBUG -- Pubnub: Firing callbacks
+D, [2015-03-04T10:56:32.460310 #40887] DEBUG -- Pubnub: Event#initialize | Initialized Pubnub::Publish
+D, [2015-03-04T10:56:32.460389 #40887] DEBUG -- Pubnub: Pubnub::Publish#uri http://pubsub.pubnub.com/publish/pub-c-736f5f42-db7b-44cb-8cf7-850a20a93363/sub-c-eac810f0-c15d-11e4-b54a-0619f8945a4f/0/arduled/0/%22second_led%22?pnsdk=PubNub-Ruby/3.7.0&uuid=37d7e875-d85d-4722-af55-1a9c2a8b348f
+I, [2015-03-04T10:56:32.460469 #40887]  INFO -- Pubnub: Bytesize: 213
+D, [2015-03-04T10:56:32.460508 #40887] DEBUG -- Pubnub: Pubnub::Publish#uri http://pubsub.pubnub.com/publish/pub-c-736f5f42-db7b-44cb-8cf7-850a20a93363/sub-c-eac810f0-c15d-11e4-b54a-0619f8945a4f/0/arduled/0/%22second_led%22?pnsdk=PubNub-Ruby/3.7.0&uuid=37d7e875-d85d-4722-af55-1a9c2a8b348f
+I, [2015-03-04T10:56:32.460581 #40887]  INFO -- Pubnub: Lenght:   213
+D, [2015-03-04T10:56:32.460600 #40887] DEBUG -- Pubnub: Created event Pubnub::Publish
+D, [2015-03-04T10:56:32.460616 #40887] DEBUG -- Pubnub: Pubnub::SingleEvent#fire
+D, [2015-03-04T10:56:32.460626 #40887] DEBUG -- Pubnub: Pubnub::SingleEvent#fire | Sync event!
+D, [2015-03-04T10:56:32.460635 #40887] DEBUG -- Pubnub: Pubnub::Event#fire
+D, [2015-03-04T10:56:32.460643 #40887] DEBUG -- Pubnub: Event#fire
+D, [2015-03-04T10:56:32.460656 #40887] DEBUG -- Pubnub: Event#start_event | sending request
+D, [2015-03-04T10:56:32.460666 #40887] DEBUG -- Pubnub: Event#start_event | tt: 0; ctt 0
+D, [2015-03-04T10:56:32.460699 #40887] DEBUG -- Pubnub: Pubnub::Publish#uri http://pubsub.pubnub.com/publish/pub-c-736f5f42-db7b-44cb-8cf7-850a20a93363/sub-c-eac810f0-c15d-11e4-b54a-0619f8945a4f/0/arduled/0/%22second_led%22?pnsdk=PubNub-Ruby/3.7.0&uuid=37d7e875-d85d-4722-af55-1a9c2a8b348f
+D, [2015-03-04T10:56:33.947900 #40887] DEBUG -- Pubnub: Event#handle_response
+D, [2015-03-04T10:56:33.948004 #40887] DEBUG -- Pubnub: Event#add_common_data_to_envelopes
+D, [2015-03-04T10:56:33.948031 #40887] DEBUG -- Pubnub: Response: [1,"Sent","14254773938516077"]
+D, [2015-03-04T10:56:33.948048 #40887] DEBUG -- Pubnub: Firing callbacks
+D, [2015-03-04T10:56:35.141163 #40887] DEBUG -- Pubnub: Event#initialize | Initialized Pubnub::Publish
+D, [2015-03-04T10:56:35.141239 #40887] DEBUG -- Pubnub: Pubnub::Publish#uri http://pubsub.pubnub.com/publish/pub-c-736f5f42-db7b-44cb-8cf7-850a20a93363/sub-c-eac810f0-c15d-11e4-b54a-0619f8945a4f/0/arduled/0/%22second_led%22?pnsdk=PubNub-Ruby/3.7.0&uuid=37d7e875-d85d-4722-af55-1a9c2a8b348f
+I, [2015-03-04T10:56:35.141315 #40887]  INFO -- Pubnub: Bytesize: 213
+D, [2015-03-04T10:56:35.141354 #40887] DEBUG -- Pubnub: Pubnub::Publish#uri http://pubsub.pubnub.com/publish/pub-c-736f5f42-db7b-44cb-8cf7-850a20a93363/sub-c-eac810f0-c15d-11e4-b54a-0619f8945a4f/0/arduled/0/%22second_led%22?pnsdk=PubNub-Ruby/3.7.0&uuid=37d7e875-d85d-4722-af55-1a9c2a8b348f
+I, [2015-03-04T10:56:35.141411 #40887]  INFO -- Pubnub: Lenght:   213
+D, [2015-03-04T10:56:35.141428 #40887] DEBUG -- Pubnub: Created event Pubnub::Publish
+D, [2015-03-04T10:56:35.141439 #40887] DEBUG -- Pubnub: Pubnub::SingleEvent#fire
+D, [2015-03-04T10:56:35.141449 #40887] DEBUG -- Pubnub: Pubnub::SingleEvent#fire | Sync event!
+D, [2015-03-04T10:56:35.141458 #40887] DEBUG -- Pubnub: Pubnub::Event#fire
+D, [2015-03-04T10:56:35.141467 #40887] DEBUG -- Pubnub: Event#fire
+D, [2015-03-04T10:56:35.141480 #40887] DEBUG -- Pubnub: Event#start_event | sending request
+D, [2015-03-04T10:56:35.141491 #40887] DEBUG -- Pubnub: Event#start_event | tt: 0; ctt 0
+D, [2015-03-04T10:56:35.141522 #40887] DEBUG -- Pubnub: Pubnub::Publish#uri http://pubsub.pubnub.com/publish/pub-c-736f5f42-db7b-44cb-8cf7-850a20a93363/sub-c-eac810f0-c15d-11e4-b54a-0619f8945a4f/0/arduled/0/%22second_led%22?pnsdk=PubNub-Ruby/3.7.0&uuid=37d7e875-d85d-4722-af55-1a9c2a8b348f
+D, [2015-03-04T10:56:35.221136 #40887] DEBUG -- Pubnub: Event#handle_response
+D, [2015-03-04T10:56:35.221231 #40887] DEBUG -- Pubnub: Event#add_common_data_to_envelopes
+D, [2015-03-04T10:56:35.221254 #40887] DEBUG -- Pubnub: Response: [1,"Sent","14254773951250875"]
+D, [2015-03-04T10:56:35.221270 #40887] DEBUG -- Pubnub: Firing callbacks
+D, [2015-03-04T10:56:36.028378 #40887] DEBUG -- Pubnub: Event#initialize | Initialized Pubnub::Publish
+D, [2015-03-04T10:56:36.028526 #40887] DEBUG -- Pubnub: Pubnub::Publish#uri http://pubsub.pubnub.com/publish/pub-c-736f5f42-db7b-44cb-8cf7-850a20a93363/sub-c-eac810f0-c15d-11e4-b54a-0619f8945a4f/0/arduled/0/%22second_led%22?pnsdk=PubNub-Ruby/3.7.0&uuid=37d7e875-d85d-4722-af55-1a9c2a8b348f
+I, [2015-03-04T10:56:36.028617 #40887]  INFO -- Pubnub: Bytesize: 213
+D, [2015-03-04T10:56:36.028660 #40887] DEBUG -- Pubnub: Pubnub::Publish#uri http://pubsub.pubnub.com/publish/pub-c-736f5f42-db7b-44cb-8cf7-850a20a93363/sub-c-eac810f0-c15d-11e4-b54a-0619f8945a4f/0/arduled/0/%22second_led%22?pnsdk=PubNub-Ruby/3.7.0&uuid=37d7e875-d85d-4722-af55-1a9c2a8b348f
+I, [2015-03-04T10:56:36.028739 #40887]  INFO -- Pubnub: Lenght:   213
+D, [2015-03-04T10:56:36.028759 #40887] DEBUG -- Pubnub: Created event Pubnub::Publish
+D, [2015-03-04T10:56:36.028772 #40887] DEBUG -- Pubnub: Pubnub::SingleEvent#fire
+D, [2015-03-04T10:56:36.028783 #40887] DEBUG -- Pubnub: Pubnub::SingleEvent#fire | Sync event!
+D, [2015-03-04T10:56:36.028793 #40887] DEBUG -- Pubnub: Pubnub::Event#fire
+D, [2015-03-04T10:56:36.028803 #40887] DEBUG -- Pubnub: Event#fire
+D, [2015-03-04T10:56:36.028823 #40887] DEBUG -- Pubnub: Event#start_event | sending request
+D, [2015-03-04T10:56:36.028835 #40887] DEBUG -- Pubnub: Event#start_event | tt: 0; ctt 0
+D, [2015-03-04T10:56:36.028871 #40887] DEBUG -- Pubnub: Pubnub::Publish#uri http://pubsub.pubnub.com/publish/pub-c-736f5f42-db7b-44cb-8cf7-850a20a93363/sub-c-eac810f0-c15d-11e4-b54a-0619f8945a4f/0/arduled/0/%22second_led%22?pnsdk=PubNub-Ruby/3.7.0&uuid=37d7e875-d85d-4722-af55-1a9c2a8b348f
+D, [2015-03-04T10:56:36.180439 #40887] DEBUG -- Pubnub: Event#handle_response
+D, [2015-03-04T10:56:36.180568 #40887] DEBUG -- Pubnub: Event#add_common_data_to_envelopes
+D, [2015-03-04T10:56:36.180592 #40887] DEBUG -- Pubnub: Response: [1,"Sent","14254773960841728"]
+D, [2015-03-04T10:56:36.180608 #40887] DEBUG -- Pubnub: Firing callbacks
+D, [2015-03-04T10:56:38.117235 #40887] DEBUG -- Pubnub: Event#initialize | Initialized Pubnub::Publish
+D, [2015-03-04T10:56:38.117316 #40887] DEBUG -- Pubnub: Pubnub::Publish#uri http://pubsub.pubnub.com/publish/pub-c-736f5f42-db7b-44cb-8cf7-850a20a93363/sub-c-eac810f0-c15d-11e4-b54a-0619f8945a4f/0/arduled/0/%22first_led%22?pnsdk=PubNub-Ruby/3.7.0&uuid=37d7e875-d85d-4722-af55-1a9c2a8b348f
+I, [2015-03-04T10:56:38.117392 #40887]  INFO -- Pubnub: Bytesize: 212
+D, [2015-03-04T10:56:38.117433 #40887] DEBUG -- Pubnub: Pubnub::Publish#uri http://pubsub.pubnub.com/publish/pub-c-736f5f42-db7b-44cb-8cf7-850a20a93363/sub-c-eac810f0-c15d-11e4-b54a-0619f8945a4f/0/arduled/0/%22first_led%22?pnsdk=PubNub-Ruby/3.7.0&uuid=37d7e875-d85d-4722-af55-1a9c2a8b348f
+I, [2015-03-04T10:56:38.117498 #40887]  INFO -- Pubnub: Lenght:   212
+D, [2015-03-04T10:56:38.117516 #40887] DEBUG -- Pubnub: Created event Pubnub::Publish
+D, [2015-03-04T10:56:38.117528 #40887] DEBUG -- Pubnub: Pubnub::SingleEvent#fire
+D, [2015-03-04T10:56:38.117545 #40887] DEBUG -- Pubnub: Pubnub::SingleEvent#fire | Sync event!
+D, [2015-03-04T10:56:38.117555 #40887] DEBUG -- Pubnub: Pubnub::Event#fire
+D, [2015-03-04T10:56:38.117563 #40887] DEBUG -- Pubnub: Event#fire
+D, [2015-03-04T10:56:38.117576 #40887] DEBUG -- Pubnub: Event#start_event | sending request
+D, [2015-03-04T10:56:38.117587 #40887] DEBUG -- Pubnub: Event#start_event | tt: 0; ctt 0
+D, [2015-03-04T10:56:38.117618 #40887] DEBUG -- Pubnub: Pubnub::Publish#uri http://pubsub.pubnub.com/publish/pub-c-736f5f42-db7b-44cb-8cf7-850a20a93363/sub-c-eac810f0-c15d-11e4-b54a-0619f8945a4f/0/arduled/0/%22first_led%22?pnsdk=PubNub-Ruby/3.7.0&uuid=37d7e875-d85d-4722-af55-1a9c2a8b348f
+D, [2015-03-04T10:56:38.254350 #40887] DEBUG -- Pubnub: Event#handle_response
+D, [2015-03-04T10:56:38.254451 #40887] DEBUG -- Pubnub: Event#add_common_data_to_envelopes
+D, [2015-03-04T10:56:38.254477 #40887] DEBUG -- Pubnub: Response: [1,"Sent","14254773981529478"]
+D, [2015-03-04T10:56:38.254494 #40887] DEBUG -- Pubnub: Firing callbacks
+D, [2015-03-04T10:56:42.076610 #40887] DEBUG -- Pubnub: Event#initialize | Initialized Pubnub::Publish
+D, [2015-03-04T10:56:42.076694 #40887] DEBUG -- Pubnub: Pubnub::Publish#uri http://pubsub.pubnub.com/publish/pub-c-736f5f42-db7b-44cb-8cf7-850a20a93363/sub-c-eac810f0-c15d-11e4-b54a-0619f8945a4f/0/arduled/0/%22first_led%22?pnsdk=PubNub-Ruby/3.7.0&uuid=37d7e875-d85d-4722-af55-1a9c2a8b348f
+I, [2015-03-04T10:56:42.076763 #40887]  INFO -- Pubnub: Bytesize: 212
+D, [2015-03-04T10:56:42.076801 #40887] DEBUG -- Pubnub: Pubnub::Publish#uri http://pubsub.pubnub.com/publish/pub-c-736f5f42-db7b-44cb-8cf7-850a20a93363/sub-c-eac810f0-c15d-11e4-b54a-0619f8945a4f/0/arduled/0/%22first_led%22?pnsdk=PubNub-Ruby/3.7.0&uuid=37d7e875-d85d-4722-af55-1a9c2a8b348f
+I, [2015-03-04T10:56:42.076855 #40887]  INFO -- Pubnub: Lenght:   212
+D, [2015-03-04T10:56:42.076888 #40887] DEBUG -- Pubnub: Created event Pubnub::Publish
+D, [2015-03-04T10:56:42.076901 #40887] DEBUG -- Pubnub: Pubnub::SingleEvent#fire
+D, [2015-03-04T10:56:42.076910 #40887] DEBUG -- Pubnub: Pubnub::SingleEvent#fire | Sync event!
+D, [2015-03-04T10:56:42.076920 #40887] DEBUG -- Pubnub: Pubnub::Event#fire
+D, [2015-03-04T10:56:42.076928 #40887] DEBUG -- Pubnub: Event#fire
+D, [2015-03-04T10:56:42.076942 #40887] DEBUG -- Pubnub: Event#start_event | sending request
+D, [2015-03-04T10:56:42.076953 #40887] DEBUG -- Pubnub: Event#start_event | tt: 0; ctt 0
+D, [2015-03-04T10:56:42.076998 #40887] DEBUG -- Pubnub: Pubnub::Publish#uri http://pubsub.pubnub.com/publish/pub-c-736f5f42-db7b-44cb-8cf7-850a20a93363/sub-c-eac810f0-c15d-11e4-b54a-0619f8945a4f/0/arduled/0/%22first_led%22?pnsdk=PubNub-Ruby/3.7.0&uuid=37d7e875-d85d-4722-af55-1a9c2a8b348f
+D, [2015-03-04T10:56:42.160612 #40887] DEBUG -- Pubnub: Event#handle_response
+D, [2015-03-04T10:56:42.160717 #40887] DEBUG -- Pubnub: Event#add_common_data_to_envelopes
+D, [2015-03-04T10:56:42.160741 #40887] DEBUG -- Pubnub: Response: [1,"Sent","14254774020643118"]
+D, [2015-03-04T10:56:42.160757 #40887] DEBUG -- Pubnub: Firing callbacks
+D, [2015-03-04T11:20:05.545421 #94078] DEBUG -- Pubnub: Symbolizing options keys
+D, [2015-03-04T11:20:05.545524 #94078] DEBUG -- Pubnub: Setting default values
+D, [2015-03-04T11:20:05.545561 #94078] DEBUG -- Pubnub: 
+
+Created new Pubnub::Client instance
+D, [2015-03-04T11:41:09.986243 #94078] DEBUG -- Pubnub: Event#initialize | Initialized Pubnub::Publish
+D, [2015-03-04T11:41:10.089867 #94078] DEBUG -- Pubnub: Pubnub::Publish#uri http://pubsub.pubnub.com/publish/pub-c-736f5f42-db7b-44cb-8cf7-850a20a93363/sub-c-eac810f0-c15d-11e4-b54a-0619f8945a4f/0/arduled/0/%22third_led%22?pnsdk=PubNub-Ruby/3.7.0&uuid=85e4eb29-8877-4580-97ec-c26c720617fe
+I, [2015-03-04T11:41:10.090077 #94078]  INFO -- Pubnub: Bytesize: 212
+D, [2015-03-04T11:41:10.090139 #94078] DEBUG -- Pubnub: Pubnub::Publish#uri http://pubsub.pubnub.com/publish/pub-c-736f5f42-db7b-44cb-8cf7-850a20a93363/sub-c-eac810f0-c15d-11e4-b54a-0619f8945a4f/0/arduled/0/%22third_led%22?pnsdk=PubNub-Ruby/3.7.0&uuid=85e4eb29-8877-4580-97ec-c26c720617fe
+I, [2015-03-04T11:41:10.090221 #94078]  INFO -- Pubnub: Lenght:   212
+D, [2015-03-04T11:41:10.090240 #94078] DEBUG -- Pubnub: Created event Pubnub::Publish
+D, [2015-03-04T11:41:10.090260 #94078] DEBUG -- Pubnub: Pubnub::SingleEvent#fire
+D, [2015-03-04T11:41:10.090272 #94078] DEBUG -- Pubnub: Pubnub::SingleEvent#fire | Sync event!
+D, [2015-03-04T11:41:10.090283 #94078] DEBUG -- Pubnub: Pubnub::Event#fire
+D, [2015-03-04T11:41:10.090292 #94078] DEBUG -- Pubnub: Event#fire
+D, [2015-03-04T11:41:10.090580 #94078] DEBUG -- Pubnub: Event#start_event | sending request
+D, [2015-03-04T11:41:10.090597 #94078] DEBUG -- Pubnub: Event#start_event | tt: 0; ctt 0
+D, [2015-03-04T11:41:10.090633 #94078] DEBUG -- Pubnub: Pubnub::Publish#uri http://pubsub.pubnub.com/publish/pub-c-736f5f42-db7b-44cb-8cf7-850a20a93363/sub-c-eac810f0-c15d-11e4-b54a-0619f8945a4f/0/arduled/0/%22third_led%22?pnsdk=PubNub-Ruby/3.7.0&uuid=85e4eb29-8877-4580-97ec-c26c720617fe
+D, [2015-03-04T11:41:10.665590 #94078] DEBUG -- Pubnub: Event#handle_response
+D, [2015-03-04T11:41:10.665740 #94078] DEBUG -- Pubnub: Event#add_common_data_to_envelopes
+D, [2015-03-04T11:41:10.665769 #94078] DEBUG -- Pubnub: Response: [1,"Sent","14254800705549760"]
+D, [2015-03-04T11:41:10.665786 #94078] DEBUG -- Pubnub: Firing callbacks
